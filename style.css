@@ -79,8 +79,9 @@
     }
 
     .font_first{
-        font:4mm "Noto Sans TC", sans-serif;
+        font:4.5mm "Noto Sans TC", sans-serif;
         font-weight:100;
+        margin-top:0.6mm;
     }
 
     .info{
@@ -91,7 +92,7 @@
 
 
     .important{
-         font:4.5mm "Noto Sans TC", sans-serif;
+         font:4mm "Noto Sans TC", sans-serif;
          font-weight:500;
     }
 
