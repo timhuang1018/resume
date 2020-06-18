@@ -85,7 +85,7 @@
     }
 
     .info{
-       font:4mm "Noto Sans TC", sans-serif;
+       font:3.8mm "Noto Sans TC", sans-serif;
        font-weight:400;
     }
 
@@ -109,8 +109,8 @@
     ul{
     margin:0;
     margin-left:2mm;
-    padding-left:4mm;
-    padding-right:4mm;
+    padding-left:3.5mm;
+    padding-right:1mm;
     }
 
 
