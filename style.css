@@ -33,13 +33,13 @@
         float:left;
     }
     .pic{
-           width: 45mm;
-           height: 45mm;
+           width: 48mm;
+           height: 48mm;
     }
 
     .title_container{
     background-color:#EBEBEB;
-        height:45mm;
+        height:48mm;
         position:relative;
         margin-left:50mm;
  }
@@ -55,7 +55,7 @@
     }
 
     .context_container{
-        margin-top:5mm;
+        margin-top:2mm;
     }
 
     .main_column{
@@ -67,7 +67,7 @@
     .shorter_column{
         background-color:#EBEBEB;
         height:247mm;
-        width:45mm;
+        width:48mm;
         float:left;
         padding-left:2mm;
         padding-right:2mm;
@@ -85,7 +85,7 @@
     }
 
     .info{
-       font:3.8mm "Noto Sans TC", sans-serif;
+       font:3.5mm "Noto Sans TC", sans-serif;
        font-weight:400;
     }
 
@@ -97,7 +97,7 @@
     }
 
     .description{
-        font:4mm "Noto Sans TC", sans-serif;
+        font:3.5mm "Noto Sans TC", sans-serif;
         font-weight:200;
     }
 
