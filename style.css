@@ -89,10 +89,18 @@
        font-weight:400;
     }
 
-
+    .info_en{
+       font:3mm "Noto Sans TC", sans-serif;
+       font-weight:400;
+    }
 
     .important{
          font:4mm "Noto Sans TC", sans-serif;
+         font-weight:500;
+    }
+
+    .important_en{
+         font:3.5mm "Noto Sans TC", sans-serif;
          font-weight:500;
     }
 
