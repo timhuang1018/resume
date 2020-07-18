@@ -90,7 +90,7 @@
     }
 
     .info_en{
-       font:3mm "Noto Sans TC", sans-serif;
+       font:2.8mm "Noto Sans TC", sans-serif;
        font-weight:400;
     }
 
@@ -108,6 +108,11 @@
         font:3.5mm "Noto Sans TC", sans-serif;
         font-weight:200;
     }
+
+    .description_en{
+            font:3.2mm "Noto Sans TC", sans-serif;
+            font-weight:200;
+        }
 
     .detail{
                font:3mm "Noto Sans TC", sans-serif;
