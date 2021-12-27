@@ -33,33 +33,38 @@
         float:left;
     }
     .pic{
-           width: 48mm;
-           height: 48mm;
+           width: 40mm;
+           height: 40mm;
     }
 
     .title_container{
-    background-color:#EBEBEB;
-        height:48mm;
+        height:40mm;
         position:relative;
-        margin-left:50mm;
+        margin-left:42mm;
  }
+    .info_container{
+        float:right;
+       height:40mm;
+       width:44mm;
+       margin-left:4mm;
+       margin-top:10mm;
+    }
     .title_text{
-        text-align:center;
+        margin-left:5mm;
         top:30%;
         height:45mm;
         position:absolute;
-        width:100%;
     }
 
     .header_container{
     }
 
     .context_container{
-        margin-top:2mm;
+        margin-top:4mm;
     }
 
     .main_column{
-           margin-left:50mm;
+
            padding-left:2mm;
            padding-right:2mm;
     }
@@ -79,43 +84,50 @@
     }
 
     .font_first{
-        font:4.5mm "Noto Sans TC", sans-serif;
-        font-weight:100;
-        margin-top:0.6mm;
+        margin-top: 8mm;
+        font:5mm "Noto Sans TC", sans-serif;
+        font-weight:400;
     }
 
     .info{
-       font:3.5mm "Noto Sans TC", sans-serif;
-       font-weight:400;
+         margin-top: 4mm;
+      font:3.5mm "Noto Sans TC", sans-serif;
+       font-weight:350;
     }
 
     .info_en{
+        margin-top: 4mm;
        font:2.8mm "Noto Sans TC", sans-serif;
-       font-weight:400;
+       font-weight:350;
     }
 
     .important{
+        margin-top: 8mm;
          font:4mm "Noto Sans TC", sans-serif;
          font-weight:500;
     }
 
     .important_en{
-         font:3.5mm "Noto Sans TC", sans-serif;
+         margin-top: 8mm;
+        font:3.5mm "Noto Sans TC", sans-serif;
          font-weight:500;
     }
 
     .description{
-        font:3.5mm "Noto Sans TC", sans-serif;
+         margin-top: 2mm;
+       font:3.5mm "Noto Sans TC", sans-serif;
         font-weight:200;
     }
 
     .description_en{
-            font:3.2mm "Noto Sans TC", sans-serif;
+          margin-top: 2mm;
+          font:3.2mm "Noto Sans TC", sans-serif;
             font-weight:200;
         }
 
     .detail{
-               font:3mm "Noto Sans TC", sans-serif;
+          margin-top: 4mm;
+             font:3mm "Noto Sans TC", sans-serif;
                font-weight:200;
             }
 
