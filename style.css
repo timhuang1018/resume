@@ -35,6 +35,7 @@
     .pic{
            width: 40mm;
            height: 40mm;
+           object-fit: contain;
     }
 
     .title_container{
