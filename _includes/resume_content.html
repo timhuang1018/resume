@@ -3,16 +3,35 @@
 		<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="{{ site.data[page.lang].name }}" class="pic"/>
 	</div>
 	<div class="info_container">
-		<i class="fab fa-linkedin" style="font-size:14px; margin-top:2mm;"> <a href="{{ site.data[page.lang].linkedin_url }}">{{ site.data[page.lang].linkedin_text }}</a></i>
-		<i class="fa fa-github" style="font-size:14px; margin-top:2mm;"> <a href="{{ site.data[page.lang].github_url }}">{{ site.data[page.lang].github_text }}</a></i>
-		<i class="fas fa-envelope-square" style="font-size:14px; margin-top:2mm;"> <a href="mailto:{{ site.data[page.lang].email }}">{{ site.data[page.lang].email }}</a></i>
-		<i class="fas fa-phone-square-alt" style="font-size:14px; margin-top:2mm;"> <a href="tel:{{ site.data[page.lang].phone }}">{{ site.data[page.lang].phone }}</a></i>
+		
+		<a href="{{ site.data[page.lang].github_url | escape }}">
+			<i class="fa fa-github"></i>
+			{{ site.data[page.lang].github_text }}
+		</a>
+		
+		<a href="{{ site.data[page.lang].linkedin_url | escape }}">
+			<i class="fab fa-linkedin"></i>
+			{{ site.data[page.lang].linkedin_text }}
+		</a>
+		
+		<a href="mailto:{{ site.data[page.lang].email | escape }}">
+			<i class="fas fa-envelope-square"></i>
+			{{ site.data[page.lang].email }}
+		</a>
+		
+		<a href="tel:{{ site.data[page.lang].phone | escape }}">
+			<i class="fas fa-phone-square-alt"></i>
+			{{ site.data[page.lang].phone }}
+		</a>
+	
 	</div>
 	<div class="title_container">
 		<div class="title_text">
 			<p class="name_ch">{{ site.data[page.lang].name }}</p>
 		</div>
-		<i class="fas fa-graduation-cap" style="font-size:14px; position:absolute; top:80%; margin-left:3mm"> {{ site.data[page.lang].education }}</i>
+		<i class="fas fa-graduation-cap" style="font-size:14px; position:absolute; top:80%; margin-left:3mm">
+			{{ site.data[page.lang].education }}
+		</i>
 		<hr style="border-top: 1.5px solid #00000; position:relative; top:95%; margin-left:3mm;">
 	</div>
 </div>
@@ -20,7 +39,10 @@
 <div class="context_container">
 	<div class="main_column">
 		{% for job in site.data[page.lang].jobs %}
-		<div class="important">{{ job.title }}, <a href="{{ job.company_url }}">{{ job.company }}</a> <span class="detail">{{ job.location }} | {{ job.duration }}</span></div>
+		<div class="important">
+			{{ job.title }}, <a href="{{ job.company_url | escape }}">{{ job.company }}</a>
+			<span class="detail">{{ job.location }} | {{ job.duration }}</span>
+		</div>
 		<div class="info">{{ job.skills }}</div>
 		<ul>
 			{% for achievement in job.achievements %}
@@ -31,7 +53,10 @@
 		
 		<div class="font_first">{{ site.data[page.lang].side_project_title }}</div>
 		{% for project in site.data[page.lang].side_projects %}
-		<div class="info"><a href="{{ project.url }}">{{ project.name }}</a> <span class="description">{{ project.description }}</span></div>
+		<div class="info">
+			<a href="{{ project.url | escape }}">{{ project.name }}</a>
+			<span class="description">{{ project.description }}</span>
+		</div>
 		<div class="info">{{ project.technologies }}</div>
 		{% endfor %}
 	</div>

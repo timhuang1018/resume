@@ -42,6 +42,7 @@
         height:40mm;
         position:relative;
         margin-left:42mm;
+        pointer-events: none;
  }
     .info_container{
         float:right;
@@ -50,6 +51,18 @@
        margin-left:4mm;
        margin-top:10mm;
     }
+  .info_container a {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 2mm;
+  	text-decoration: none;
+  }
+
+  .info_container i {
+    margin-right: 5px;
+  	font-size: 14px; /* Set icon size */
+  }
     .title_text{
         margin-left:5mm;
         top:30%;
