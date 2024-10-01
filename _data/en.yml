@@ -1,0 +1,67 @@
+name: "Tim Huang"
+linkedin_url: "https://www.linkedin.com/in/timhuang1018/"
+linkedin_text: "linkedin/timhuang1018"
+github_url: "https://github.com/timhuang1018"
+github_text: "github/timhuang1018"
+email: "t8522192@gmail.com"
+phone: "(+886)912-480-303"
+education: "B.S., Civil Engineering, NCTU, 2008 - 2012"
+
+jobs:
+  - title: "Software Engineer"
+    company: "KeepPro"
+    company_url: "https://keeppro.io/"
+    location: "Taiwan"
+    duration: "2024/3 - now"
+    skills: "Kotlin Multiplatform/Compose Multiplatform/Koin/Fastlane/Multilingual"
+    achievements:
+      - "Architect project to let application support multiple platform(web, iOS, Android)"
+      - "Create multilingual support, provide service to more users"
+
+  - title: "Android Developer"
+    company: "foodpanda"
+    company_url: "https://www.foodpanda.com.tw/"
+    location: "Taiwan"
+    duration: "2022/3 - 2023/12"
+    skills: "Android/Jetpack Compose/Modularization/Proxy and Profiling tools/Bitrise"
+    achievements:
+      - "Lead several feature projects on both Android and iOS. One case achieving a 65% increase in customer service reports in 1st week post-launch"
+      - "Addressing android 13 linking issue affecting across all company apps, and transforming a rough action item into a successful resolution"
+      - "Involving to complete several major migrations. Such as migration to jetpack compose. Take role in planning, architect, and create needed internal library"
+  - title: "Android Developer"
+    company: "Noodoe"
+    company_url: "https://www.noodoe.com/"
+    location: "Taiwan"
+    duration: "2021/3 - 2022/3"
+    skills: "Android/Kotlin/Rx Java/Firebase/Google Map Sdk/Gradle/Jenkins"
+    achievements:
+      - "Swift response to provisional requirement of new delivery feature. Successfully complete the goal within 2 months(from brainstorming to implement and deploy)"
+      - "Refactor core architecture from MVP to MVVM, which makes impact on 33% of existed code. This is for deprecating non-maintenance 3rd library, in order to upgrade android gradle plugin for requirement of publish policy in incoming future"
+
+  - title: "Android Developer"
+    company: "NexTV"
+    company_url: "https://www.shinjyh.com/"
+    location: "Taiwan"
+    duration: "2019/2 - 2021/2"
+    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Gradle"
+    achievements:
+      - "Solve issue about writing too many promotional message, distribute and manage message sources, make write message to achieve within 20k/day(Firebase blaze), save 6k $NT/month in estimate"
+      - "Create and maintain new mobile app about social networking(chat, calling, post, media), Daily ActiveUsers are 300 in average"
+      - "Create and maintain new TV app about media browsing, Daily ActiveUsers are 400 in average"
+
+  - title: "Android Developer"
+    company: "Geoforce"
+    company_url: "https://www.geoforce.com/"
+    location: "Taiwan"
+    duration: "2018/8 - 2018/12"
+    skills: "Android/Kotlin/Java/Google Map Sdk/Gradle/Android Archive(AAR)"
+    achievements:
+      - "Modularize new feature by creating library for existed project"
+
+side_project_title: "Side Project"
+side_projects:
+
+  - name: "Krop"
+    url: "https://github.com/timhuang1018/Krop"
+    description: "Kotlin multiplatform library for cropping image(Compose Multiplatform) by building on top of coil"
+    technologies: "Kotlin multiplatform/Compose multiplatform"

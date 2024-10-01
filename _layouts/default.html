@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{% if page.lang == 'zh-TW' %}黃瀚霆的履歷{% else %}Tim Huang's Resume{% endif %}</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/7ad6bc3551.js" crossorigin="anonymous"></script>
+	<link type="text/css" rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+	<div class="book">
+		<div class="page">
+			{{ content }}
+		</div>
+	</div>
+	<div class="language-switcher">
+		{% if page.lang == 'en' %}
+		<a href="{{ '/zh-TW' | relative_url }}">中文</a>
+		{% else %}
+		<a href="{{ '/en' | relative_url }}">English</a>
+		{% endif %}
+	</div>
+</body>
+</html>

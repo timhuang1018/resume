@@ -1,0 +1,67 @@
+name: "黃瀚霆"
+linkedin_url: "https://www.linkedin.com/in/timhuang1018/"
+linkedin_text: "linkedin/timhuang1018"
+github_url: "https://github.com/timhuang1018"
+github_text: "github/timhuang1018"
+email: "t8522192@gmail.com"
+phone: "(+886)912-480-303"
+education: "土木工程系學士, 交通大學, 2008 - 2012"
+
+jobs:
+  - title: "軟體工程師"
+    company: "KeepPro"
+    company_url: "https://keeppro.io/"
+    location: "台灣"
+    duration: "2024/3 - 現在"
+    skills: "Kotlin Multiplatform/Compose Multiplatform/Koin/Fastlane"
+    achievements:
+      - "設計專案架構以支援多平台（網頁、iOS、Android）"
+      - "建立多語言支援，提供更多使用者的服務"
+  - title: "Android工程師"
+    company: "foodpanda"
+    company_url: "https://www.foodpanda.com.tw/"
+    location: "台灣"
+    duration: "2022/3 - 2023/12"
+    skills: "Android/Jetpack Compose/Modularization/Proxy and Profiling tools/Bitrise"
+    achievements:
+      - "領導多個Android和iOS平台的功能項目開發，其中一個項目在上線後首周內使客戶服務報告增加了65%"
+      - "解決影響公司所有應用程式的Android 13鏈接問題，將初步的行動項目轉化為成功的解決方案"
+      - "參與完成多個重大的遷移工作，例如遷移到Jetpack Compose。在規劃、架構設計以及創建所需的內部庫方面發揮重要作用"
+
+  - title: "Android工程師"
+    company: "Noodoe"
+    company_url: "https://www.noodoe.com/"
+    location: "台灣"
+    duration: "2021/3 - 2022/3"
+    skills: "Android/Kotlin/Rx Java/Firebase/Google Map Sdk/Gradle/Jenkins"
+    achievements:
+      - "迅速反應臨時的提案：新增外送功能，在兩個月內完成從構想到實現、發布，達到目標"
+      - "重構專案核心架構，MVP -> MVVM，影響約33%既有的編碼，以淘汰無法維護的函式庫，升級Android插件符合未來上架需求"
+
+  - title: "Android工程師"
+    company: "NexTV"
+    company_url: "https://www.shinjyh.com/"
+    location: "台灣"
+    duration: "2019/2 - 2021/2"
+    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Gradle"
+    achievements:
+      - "解決廣告訊息量過大的議題，分散訊息源管理，達到方案內需求(Firebase blaze,寫入 20k/天)，估計可省下6k $NT/月"
+      - "全新開發並維護手機app，社交類型(聊天、貼文、影音、通話)，每日活躍數約300人"
+      - "全新開發並維護TV app，影音瀏覽類型，每日活躍數約400人"
+
+  - title: "Android工程師"
+    company: "Geoforce"
+    company_url: "https://www.geoforce.com/"
+    location: "台灣"
+    duration: "2018/8 - 2018/12"
+    skills: "Android/Kotlin/Java/Google Map Sdk/Gradle/Android Archive(AAR)"
+    achievements:
+      - "新功能以library開發，提供既有專案模組化使用"
+
+side_project_title: "個人作品"
+side_projects:
+
+  - name: "Krop"
+    url: "https://github.com/timhuang1018/Krop"
+    description: "Kotlin 多平台圖像裁剪庫 (Compose Multiplatform)，基於 Coil 構建"
+    technologies: "Kotlin multiplatform/Compose multiplatform/coil"
