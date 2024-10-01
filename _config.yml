@@ -39,8 +39,8 @@
 # File: _config.yml
 title: Tim Huang's Resume
 description: Tim Huang's bilingual resume
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/resume" # the subpath of your site, e.g. /blog
+url: "https://timhuang1018.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: timhuang1018
 
 # Build settings
