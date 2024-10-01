@@ -63,5 +63,5 @@ side_projects:
 
   - name: "Krop"
     url: "https://github.com/timhuang1018/Krop"
-    description: "Kotlin multiplatform library for cropping image(Compose Multiplatform) by building on top of coil"
     technologies: "Kotlin multiplatform/Compose multiplatform"
+    description: "Kotlin multiplatform library for cropping image(Compose Multiplatform) by building on top of coil"
