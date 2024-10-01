@@ -63,5 +63,5 @@ side_projects:
 
   - name: "Krop"
     url: "https://github.com/timhuang1018/Krop"
-    description: "Kotlin 多平台圖像裁剪庫 (Compose Multiplatform)，基於 Coil 構建"
     technologies: "Kotlin multiplatform/Compose multiplatform/coil"
+    description: "Kotlin 多平台圖像裁剪庫 (Compose Multiplatform)，基於 Coil 構建"
