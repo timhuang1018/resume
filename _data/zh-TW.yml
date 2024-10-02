@@ -19,7 +19,7 @@ jobs:
       - "建立多語言支援，提供更多使用者的服務"
   - title: "Android工程師"
     company: "foodpanda"
-    company_url: "https://www.foodpanda.com.tw/"
+    company_url: "https://www.foodpanda.com.sg/"
     location: "台灣"
     duration: "2022/3 - 2023/12"
     skills: "Android/Jetpack Compose/Modularization/Proxy and Profiling tools/Bitrise"
