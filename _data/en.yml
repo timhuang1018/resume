@@ -20,7 +20,7 @@ jobs:
 
   - title: "Android Developer"
     company: "foodpanda"
-    company_url: "https://www.foodpanda.com.tw/"
+    company_url: "https://www.foodpanda.com.sg/"
     location: "Taiwan"
     duration: "2022/3 - 2023/12"
     skills: "Android/Jetpack Compose/Modularization/Proxy and Profiling tools/Bitrise"
