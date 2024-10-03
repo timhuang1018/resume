@@ -13,7 +13,7 @@ jobs:
     company_url: "https://keeppro.io/"
     location: "Taiwan"
     duration: "2024/3 - now"
-    skills: "Kotlin Multiplatform/Compose Multiplatform/Koin/Fastlane/Multilingual"
+    skills: "Kotlin Multiplatform/Compose Multiplatform/Koin/Fastlane/Swift/iOS/Javascript/"
     achievements:
       - "Architect project to let application support multiple platform(web, iOS, Android)"
       - "Create multilingual support, provide service to more users"
