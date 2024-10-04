@@ -15,8 +15,8 @@ jobs:
     duration: "2024/3 - now"
     skills: "Kotlin Multiplatform/Compose Multiplatform/Koin/Fastlane/Swift/iOS/Javascript/"
     achievements:
-      - "Architect project to let application support multiple platform(web, iOS, Android)"
-      - "Create multilingual support, provide service to more users"
+      - "Architected cross-platform application to support multiple platforms (web, iOS, Android)"
+      - "Implemented comprehensive multilingual support, significantly expanding the application's user base"
 
   - title: "Android Developer"
     company: "foodpanda"
@@ -25,9 +25,9 @@ jobs:
     duration: "2022/3 - 2023/12"
     skills: "Android/Jetpack Compose/Modularization/Proxy and Profiling tools/Bitrise"
     achievements:
-      - "Lead several feature projects on both Android and iOS. One case achieving a 65% increase in customer service reports in 1st week post-launch"
-      - "Addressing android 13 linking issue affecting across all company apps, and transforming a rough action item into a successful resolution"
-      - "Involving to complete several major migrations. Such as migration to jetpack compose. Take role in planning, architect, and create needed internal library"
+      - "Led multiple feature projects across Android and iOS, achieving a 65% increase in customer service reports within the first week post-launch"
+      - "Successfully resolved Android 13 linking issues affecting all company apps"
+      - "Played a key role in major migrations, including the transition to Jetpack Compose"
   - title: "Android Developer"
     company: "Noodoe"
     company_url: "https://www.noodoe.com/"
@@ -35,19 +35,18 @@ jobs:
     duration: "2021/3 - 2022/3"
     skills: "Android/Kotlin/Rx Java/Firebase/Google Map Sdk/Gradle/Jenkins"
     achievements:
-      - "Swift response to provisional requirement of new delivery feature. Successfully complete the goal within 2 months(from brainstorming to implement and deploy)"
-      - "Refactor core architecture from MVP to MVVM, which makes impact on 33% of existed code. This is for deprecating non-maintenance 3rd library, in order to upgrade android gradle plugin for requirement of publish policy in incoming future"
+      - "Rapidly developed and deployed a new delivery feature within two months, from concept to implementation"
+      - "Refactored core architecture from MVP to MVVM, impacting 33% of existing code, to facilitate Android Gradle plugin upgrades"
 
   - title: "Android Developer"
     company: "NexTV"
     company_url: "https://www.shinjyh.com/"
     location: "Taiwan"
     duration: "2019/2 - 2021/2"
-    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Gradle"
+    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Exoplayer/Gradle"
     achievements:
-      - "Solve issue about writing too many promotional message, distribute and manage message sources, make write message to achieve within 20k/day(Firebase blaze), save 6k $NT/month in estimate"
-      - "Create and maintain new mobile app about social networking(chat, calling, post, media), Daily ActiveUsers are 300 in average"
-      - "Create and maintain new TV app about media browsing, Daily ActiveUsers are 400 in average"
+      - "Optimized promotional message distribution, reducing costs by an estimated NT$6,000 per month while maintaining daily message output within Firebase Blaze limits"
+      - "Developed and maintained a social networking mobile app and a TV app for media browsing, achieving average Daily Active Users of 300 and 400, respectively"
 
   - title: "Android Developer"
     company: "Geoforce"
@@ -56,7 +55,15 @@ jobs:
     duration: "2018/8 - 2018/12"
     skills: "Android/Kotlin/Java/Google Map Sdk/Gradle/Android Archive(AAR)"
     achievements:
-      - "Modularize new feature by creating library for existed project"
+      - "Modularized new features by creating libraries for existing projects, improving code reusability and maintainability"
+
+  - title: "Project Manager"
+    company: "Taipower"
+    company_url: "https://www.taipower.com.tw/"
+    location: "Taiwan"
+    duration: "2013/12 - 2018/5"
+    achievements:
+      - "Led cross-functional teams in managing complex projects from inception to completion, ensuring timely delivery, resource optimization"
 
 side_project_title: "Side Project"
 side_projects:
