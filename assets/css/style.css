@@ -42,7 +42,12 @@
         height:40mm;
         position:relative;
         margin-left:42mm;
-        pointer-events: none;
+        margin-right:50mm;
+ }
+ .title_container a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
  }
     .info_container{
         float:right;
@@ -57,6 +62,8 @@
     align-items: center;
     margin-top: 2mm;
   	text-decoration: none;
+  	font-size: 14px;
+  	color: #333;
   }
 
   .info_container i {
@@ -68,6 +75,7 @@
         top:30%;
         height:45mm;
         position:absolute;
+        pointer-events: none;
     }
 
     .header_container{
@@ -98,14 +106,14 @@
     }
 
     .font_first{
-        margin-top: 8mm;
+        margin-top: 7mm;
         font:5mm "Noto Sans TC", sans-serif;
         font-weight:400;
     }
 
     .info{
-         margin-top: 4mm;
-      font:3.5mm "Noto Sans TC", sans-serif;
+         margin-top: 2.2mm;
+      font:3.2mm "Noto Sans TC", sans-serif;
        font-weight:350;
     }
 
@@ -116,8 +124,8 @@
     }
 
     .important{
-        margin-top: 8mm;
-         font:4mm "Noto Sans TC", sans-serif;
+        margin-top: 6mm;
+         font:3.6mm "Noto Sans TC", sans-serif;
          font-weight:500;
     }
 
@@ -128,9 +136,9 @@
     }
 
     .description{
-         margin-top: 2mm;
-       font:3.5mm "Noto Sans TC", sans-serif;
-        font-weight:200;
+         margin-top: 1.5mm;
+       font:3.2mm "Noto Sans TC", sans-serif;
+        font-weight:350;
     }
 
     .description_en{
@@ -142,7 +150,7 @@
     .detail{
           margin-top: 4mm;
              font:3mm "Noto Sans TC", sans-serif;
-               font-weight:200;
+               font-weight:400;
             }
 
     ul{

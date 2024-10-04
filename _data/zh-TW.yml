@@ -43,7 +43,7 @@ jobs:
     company_url: "https://www.shinjyh.com/"
     location: "台灣"
     duration: "2019/2 - 2021/2"
-    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Gradle"
+    skills: "Android/Kotlin/Coroutine/Firebase/SQLite/Agora Sdk/Exoplayer/Gradle"
     achievements:
       - "解決廣告訊息量過大的議題，分散訊息源管理，達到方案內需求(Firebase blaze,寫入 20k/天)，估計可省下6k $NT/月"
       - "全新開發並維護手機app，社交類型(聊天、貼文、影音、通話)，每日活躍數約300人"
@@ -56,7 +56,16 @@ jobs:
     duration: "2018/8 - 2018/12"
     skills: "Android/Kotlin/Java/Google Map Sdk/Gradle/Android Archive(AAR)"
     achievements:
-      - "新功能以library開發，提供既有專案模組化使用"
+      - "通過為現有項目創建庫模組化新功能，提升了代碼的重用性和可維護性"
+
+  - title: "Project Manager"
+    company: "Taipower"
+    company_url: "https://www.taipower.com.tw/"
+    location: "Taiwan"
+    duration: "2013/12 - 2018/5"
+    achievements:
+      - "領導跨職能團隊，從項目開始到完成進行管理，確保按時交付、資源最佳化"
+
 
 side_project_title: "個人作品"
 side_projects:
